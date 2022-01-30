@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #74a6b96c;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 20px;
+}
+.btns button {
+  border: none;
+  background: #0c668ab6;
+  border-radius: 8px;
+  padding: 10px 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btns h2 {
+  min-width: max-content;
+  color: #0c668ab6;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 0;
+}
+
+form input {
+  padding: 5px;
+  border: 2px solid #0c668ab6;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  outline-color: #0c668ab6;
+}
+form button {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 2px solid #0c668ab6;
+  cursor: pointer;
+  padding: 5px 10px;
+  background: transparent;
+  color: #0c668ab6;
+  font-weight: bold;
+}
+
+.giphy-apis h2 {
+  color: #0c668ab6;
+}
+
+.giphy-apis img {
+  width: 400px;
+  cursor: pointer;
+  max-height: 300px;
+}
+
+.api {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.api + .api {
+  border-top: 1px solid #0c668ab6;
+}
